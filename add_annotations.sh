@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+PYTHON=python
+SCRIPT=add_annotations.py
+MODEL_FILE=$1
+ANNO_FILE=$2
+UPDATED_MODEL_FILE=$3
+export CMD="$PYTHON $SCRIPT $MODEL_FILE $ANNO_FILE $UPDATED_MODEL_FILE"
+${CMD}

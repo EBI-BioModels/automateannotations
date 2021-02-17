@@ -1,0 +1,6 @@
+MetaId,ExternalResource,Qualifier,AccessionId
+COPASI10,go,bqbiol:isVersionOf,GO:0044237
+COPASI12,go,bqbiol:isVersionOf,GO:0016049
+COPASI13,taxonomy,bqbiol:hasTaxon,5544
+COPASI0,mamo,bqbiol:hasProperty,MAMO_0000009
+COPASI20,go,bqbiol:isVersionOf,GO:0044237
