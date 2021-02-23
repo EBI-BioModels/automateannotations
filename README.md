@@ -6,13 +6,19 @@
 * `updated_annotations_samples.(xlsx, csv)`: structured data files containing annotations that you want to add to your models. The excel file facilitates for editing, then save as... as csv to make it as an input of the script.
 * `*.xml` are your SBML models.
 
-##How to install required packages/libraries
-This script requires `libsbml` installed. To install it, the easiest way is to run the following command.
+## How to install required packages/libraries
+I strongly recommend you making use a virtual environment in Python to install and operate the script. To create a new virtual environment, there are some approaches, but I often use the following command:
+```
+python3 -m venv venv
+```
+where `python3 -m venv` is required part of that command and `venv` is the directory name to contain Python.
+
+This script requires `libsbml` installed. To install it, the easiest way is to run the following command to install the required packages for the project which were defined in the `requirements.txt` file.
 ```
 pip install -r requirements.txt
 ```
 
-## How to run it.
+## How to run the script to add annotations
 
 From the terminal pointing to the folder containing these scripts, type:
 
