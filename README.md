@@ -22,3 +22,19 @@ Or
 
 `./add_annotations.sh model.xml annotations_added.csv updated_model.xml`
 
+## How to run the script to extract annotations
+
+To contribute to the building the input file for the script of adding annotations, we also provide with you the script to extract annotations being used in your SBML file.
+
+The script will return data in CSV format but you need to pipe the output into a file.
+
+To run the script, just hit Enter after the following command:
+
+`sh extract_elements.sh your_SBML_file.xml`
+
+To save the output into a file, run as below:
+
+`sh extract_elements.sh your_SBML_file.xml > elements.csv`
+
+
+### Enjoy your work!
